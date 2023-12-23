@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: '2SpacesDev Handboook',
+			title: '2SpacesDev Handbook',
 			social: {
 				github: 'https://github.com/2SpacesDev',
 			},
