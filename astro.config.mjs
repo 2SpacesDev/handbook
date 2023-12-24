@@ -6,6 +6,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '2SpacesDev Handbook',
+			logo: {
+				replacesTitle: true,
+				light: './src/assets/light-logo.svg',
+				dark: './src/assets/dark-logo.svg',
+			},
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
@@ -23,7 +28,7 @@ export default defineConfig({
 					label: 'About 2SpacesDev',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'The Haiku', link: '/about/the-haiku/' },
+						{ label: 'The Haiku', link: '/about/the-haiku' },
 					],
 				},
 				{
