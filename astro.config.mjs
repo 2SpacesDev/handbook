@@ -21,7 +21,26 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{
+							label: 'Example Guide',
+							items: [
+								// Each item here is one entry in the navigation menu.
+								{ label: 'Example Guide', link: '/guides/example/' },
+							],
+						},
+					],
+				},
+				{
+					label: 'Marketing',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Overview', link: '/marketing/overview' },
+						{
+							label: 'Brand',
+							// Each item here is one entry in the navigation menu.
+							autogenerate: { directory: 'marketing/brand' },
+
+						},
 					],
 				},
 				{
