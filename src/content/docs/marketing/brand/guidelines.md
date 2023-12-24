@@ -8,6 +8,12 @@ This handbook covers the design guidelines of 2SpacesDev.
 ## Color Palette
 The color palette that used in 2SpacesDev design is borrowed from [ParkUI Color Theme](https://park-ui.com/docs/panda/theme/colors).
 
+Slate is used as Gray color. The Accent color, by the priority, will be in this order.
+1. Cyan
+2. Orange
+3. Amber
+4. Blue
+
 ## Typography
 IBM Plex is the primary typeface for 2SpacesDev. It is a corporate typeface of IBM.
 

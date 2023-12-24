@@ -6,6 +6,15 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '2SpacesDev Handbook',
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+				// Fontsource files for to regular and semi-bold font weights.
+				'@fontsource/ibm-plex-sans/400.css',
+				'@fontsource/ibm-plex-sans/700.css',
+				'@fontsource/ibm-plex-mono/400.css',
+				'@fontsource/ibm-plex-mono/700.css',
+			],
 			social: {
 				github: 'https://github.com/2SpacesDev',
 			},
